@@ -129,6 +129,17 @@ The API includes proper error handling for:
 - Invalid genre types
 - Malformed requests
 
+## Deployment
+You can deploy the API using DOCKER
+- Build the docker image: 
+``` bash
+docker build -t fastapi-book-api
+```
+- Run the container:
+``` bash
+docker run -p 8000:8000 fast-book-api
+```
+
 ## Contributing
 
 1. Fork the repository
